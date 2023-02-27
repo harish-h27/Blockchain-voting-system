@@ -52,7 +52,11 @@
     - **results.json** -> final results of election
 
 ## Contact:
-Harish H\
-Email: harish-h@outlook.com\
-LinkedIn: [Harish H](https://www.linkedin.com/in/harish-h-0807561b3/)\
-Twitter: [im_harish.h](https://www.instagram.com/im_harish.h/)\
+
+Harish H
+
+Email: harish-h@outlook.com
+
+LinkedIn: [Harish H](https://www.linkedin.com/in/harish-h-0807561b3/)
+
+Instagram: [im_harish.h](https://www.instagram.com/im_harish.h/)
