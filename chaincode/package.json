@@ -1,0 +1,52 @@
+{
+    "name": "decentralized-voting",
+    "version": "1.0.0",
+    "description": "Decentralized Voting contract implemented in typescript",
+    "main": "./dist/index.js",
+    "engines": {
+        "node": ">=12",
+        "npm": ">=6.9"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "nyc mocha --recursive",
+        "start": "fabric-chaincode-node start",
+        "build": "tsc"
+    },
+    "engineStrict": true,
+    "author": "Harish H <harish-h@outlook.com",
+    "license": "",
+    "dependencies": {
+        "fabric-contract-api": "^2.0.0",
+        "fabric-shim": "^2.0.0",
+        "moment": "^2.29.4"
+    },
+    "devDependencies": {
+        "@types/moment": "^2.13.0",
+        "@types/node": "^18.11.11",
+        "chai": "^4.1.2",
+        "eslint": "^4.19.1",
+        "mocha": "^5.2.0",
+        "nyc": "^14.1.1",
+        "sinon": "^6.0.0",
+        "sinon-chai": "^3.2.0",
+        "typescript": "^4.9.4"
+    },
+    "nyc": {
+        "exclude": [
+            "coverage/**",
+            "test/**"
+        ],
+        "reporter": [
+            "text-summary",
+            "html"
+        ],
+        "all": true,
+        "check-coverage": true,
+        "statements": 100,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+    }
+}

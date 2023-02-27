@@ -1,0 +1,25 @@
+{
+  "name": "decentralized-voting",
+  "version": "1.0.0",
+  "description": "Decentralized Voting contract implemented in typescript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Harish H <harish-h@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-ca-client": "2.2.4",
+    "fabric-network": "2.2.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "@types/uuid": "^9.0.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.3"
+  }
+}
