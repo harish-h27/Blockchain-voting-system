@@ -22,6 +22,7 @@
 
 ### User Flow
 - This network contains one main organization **Election Commission** and **MY Party** organization an example of political party 
+- Election Commission organization contains 3 orderer and 1 peer , My Party organization has 1 peer
 - Election Commission organization is capable of adding new parties to the network
 - Election Commission issues new voter id's to voters and registers constituency
 - Election Commission decides voting time and date
