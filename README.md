@@ -51,7 +51,14 @@
     - **constituency_list.json** -> list of all constituency 
     - **results.json** -> final results of election
 
-## Contact:
+
+### Clean the network
+- cd to network folder
+```sh
+    ./clean.sh
+```
+## Contact: ***feel free to ask any question you want.***
+
 
 Harish H
 
